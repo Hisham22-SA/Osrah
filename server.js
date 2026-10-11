@@ -2,7 +2,7 @@ import { db } from "./database.js";
 import { featureApi } from './features-api.js';
 import { importDemo,importDemoLocations } from "./import-demo.js";
 import { expandDemoFoods } from './expand-demo-foods.js';
-import { validateLicense } from './family-license.js';
+import { validateLicense } from './lib/family-license.js';
 import { validateLocation } from './locations.js';
 import http from 'node:http';
 import { randomBytes, scryptSync, timingSafeEqual } from 'node:crypto';
@@ -86,4 +86,3 @@ export const server = http.createServer(async (req,res) => {
   } catch(error) { if(!error.status) console.error(error); send(error.status||500,{error:error.status?error.message:'Unexpected server error'}); }
 });
 if (process.argv[1] === fileURLToPath(import.meta.url)) server.listen(Number(process.env.PORT)||3000,'127.0.0.1',()=>console.log('Osrah running at http://localhost:3000'));
-
