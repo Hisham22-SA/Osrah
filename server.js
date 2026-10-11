@@ -2,7 +2,7 @@ import { db } from "./database.js";
 import { featureApi } from './features-api.js';
 import { importDemo,importDemoLocations } from "./import-demo.js";
 import { expandDemoFoods } from './expand-demo-foods.js';
-import { validateLicense } from './license.js';
+import { validateLicense } from './family-license.js';
 import { validateLocation } from './locations.js';
 import http from 'node:http';
 import { randomBytes, scryptSync, timingSafeEqual } from 'node:crypto';
