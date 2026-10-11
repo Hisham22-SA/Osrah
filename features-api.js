@@ -1,7 +1,7 @@
 import { db } from './database.js';
 import { searchProducts,rankProducts,validateSchedule,isAvailable,analytics } from './domain.js';
 import { randomBytes, randomUUID } from 'node:crypto';
-import { validateLicense } from './license.js';
+import { validateLicense } from './family-license.js';
 import { validateLocation } from './locations.js';
 import { createTapCheckout, retrieveTapCharge, tapConfigured } from './tap-payments.js';
 const fail=(status,message)=>{throw Object.assign(new Error(message),{status});};
