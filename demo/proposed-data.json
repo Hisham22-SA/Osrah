@@ -1,0 +1,2492 @@
+{
+  "schemaVersion": 1,
+  "status": "approved_and_imported_extended",
+  "synthetic": true,
+  "referenceDate": "2026-10-10",
+  "timezone": "Asia/Riyadh",
+  "notes": [
+    "All people and activity records are fictional. Names are common invented examples, not actual customer records.",
+    "No passwords, real phone numbers, card data, or real payments.",
+    "Prices are illustrative, not market quotations.",
+    "Friday closed for all families unless overridden. No real reservations or capacity commitments.",
+    "Historical orders are independent sample records, not deductions from the initial stock.",
+    "Schedules, amounts, and historical activity require user review before import.",
+    "The user approved the original demo set. The catalog was later extended with six fictional Saudi foods; generated catalog images are illustrative only."
+  ],
+  "families": [
+    {
+      "id": "family-1",
+      "name": "أم صالح",
+      "email": "family1@example.test",
+      "region": "الرياض",
+      "role": "family",
+      "approved": true,
+      "weeklyHours": [
+        {
+          "day": 0,
+          "start": "16:00",
+          "end": "21:00"
+        },
+        {
+          "day": 1,
+          "start": "16:00",
+          "end": "21:00"
+        },
+        {
+          "day": 2,
+          "start": "16:00",
+          "end": "21:00"
+        },
+        {
+          "day": 3,
+          "start": "16:00",
+          "end": "21:00"
+        },
+        {
+          "day": 4,
+          "start": "16:00",
+          "end": "21:00"
+        },
+        {
+          "day": 6,
+          "start": "16:00",
+          "end": "21:00"
+        }
+      ],
+      "exceptions": [
+        {
+          "date": "2026-10-15",
+          "closed": true
+        }
+      ],
+      "delivery": [
+        "pickup",
+        "family_delivery"
+      ]
+    },
+    {
+      "id": "family-2",
+      "name": "أم نورة",
+      "email": "family2@example.test",
+      "region": "جدة",
+      "role": "family",
+      "approved": true,
+      "weeklyHours": [
+        {
+          "day": 0,
+          "start": "15:00",
+          "end": "20:00"
+        },
+        {
+          "day": 1,
+          "start": "15:00",
+          "end": "20:00"
+        },
+        {
+          "day": 2,
+          "start": "15:00",
+          "end": "20:00"
+        },
+        {
+          "day": 3,
+          "start": "15:00",
+          "end": "20:00"
+        },
+        {
+          "day": 4,
+          "start": "15:00",
+          "end": "20:00"
+        },
+        {
+          "day": 6,
+          "start": "15:00",
+          "end": "20:00"
+        }
+      ],
+      "exceptions": [],
+      "delivery": [
+        "pickup",
+        "family_delivery"
+      ]
+    },
+    {
+      "id": "family-3",
+      "name": "أم عبدالله",
+      "email": "family3@example.test",
+      "region": "الدمام",
+      "role": "family",
+      "approved": true,
+      "weeklyHours": [
+        {
+          "day": 0,
+          "start": "12:00",
+          "end": "18:00"
+        },
+        {
+          "day": 1,
+          "start": "12:00",
+          "end": "18:00"
+        },
+        {
+          "day": 2,
+          "start": "12:00",
+          "end": "18:00"
+        },
+        {
+          "day": 3,
+          "start": "12:00",
+          "end": "18:00"
+        },
+        {
+          "day": 4,
+          "start": "12:00",
+          "end": "18:00"
+        },
+        {
+          "day": 6,
+          "start": "12:00",
+          "end": "18:00"
+        }
+      ],
+      "exceptions": [],
+      "delivery": [
+        "pickup",
+        "family_delivery"
+      ]
+    },
+    {
+      "id": "family-4",
+      "name": "أم فهد",
+      "email": "family4@example.test",
+      "region": "مكة",
+      "role": "family",
+      "approved": true,
+      "weeklyHours": [
+        {
+          "day": 0,
+          "start": "16:00",
+          "end": "22:00"
+        },
+        {
+          "day": 1,
+          "start": "16:00",
+          "end": "22:00"
+        },
+        {
+          "day": 2,
+          "start": "16:00",
+          "end": "22:00"
+        },
+        {
+          "day": 3,
+          "start": "16:00",
+          "end": "22:00"
+        },
+        {
+          "day": 4,
+          "start": "16:00",
+          "end": "22:00"
+        },
+        {
+          "day": 6,
+          "start": "16:00",
+          "end": "22:00"
+        }
+      ],
+      "exceptions": [],
+      "delivery": [
+        "pickup",
+        "family_delivery"
+      ]
+    },
+    {
+      "id": "family-5",
+      "name": "أم سارة",
+      "email": "family5@example.test",
+      "region": "المدينة المنورة",
+      "role": "family",
+      "approved": true,
+      "weeklyHours": [
+        {
+          "day": 0,
+          "start": "10:00",
+          "end": "16:00"
+        },
+        {
+          "day": 1,
+          "start": "10:00",
+          "end": "16:00"
+        },
+        {
+          "day": 2,
+          "start": "10:00",
+          "end": "16:00"
+        },
+        {
+          "day": 3,
+          "start": "10:00",
+          "end": "16:00"
+        },
+        {
+          "day": 4,
+          "start": "10:00",
+          "end": "16:00"
+        },
+        {
+          "day": 6,
+          "start": "10:00",
+          "end": "16:00"
+        }
+      ],
+      "exceptions": [],
+      "delivery": [
+        "pickup",
+        "family_delivery"
+      ]
+    },
+    {
+      "id": "family-6",
+      "name": "أم خالد",
+      "email": "family6@example.test",
+      "region": "بريدة",
+      "role": "family",
+      "approved": true,
+      "weeklyHours": [
+        {
+          "day": 0,
+          "start": "15:00",
+          "end": "21:00"
+        },
+        {
+          "day": 1,
+          "start": "15:00",
+          "end": "21:00"
+        },
+        {
+          "day": 2,
+          "start": "15:00",
+          "end": "21:00"
+        },
+        {
+          "day": 3,
+          "start": "15:00",
+          "end": "21:00"
+        },
+        {
+          "day": 4,
+          "start": "15:00",
+          "end": "21:00"
+        },
+        {
+          "day": 6,
+          "start": "15:00",
+          "end": "21:00"
+        }
+      ],
+      "exceptions": [],
+      "delivery": [
+        "pickup",
+        "family_delivery"
+      ]
+    },
+    {
+      "id": "family-7",
+      "name": "أم ريم",
+      "email": "family7@example.test",
+      "region": "أبها",
+      "role": "family",
+      "approved": true,
+      "weeklyHours": [
+        {
+          "day": 0,
+          "start": "10:00",
+          "end": "17:00"
+        },
+        {
+          "day": 1,
+          "start": "10:00",
+          "end": "17:00"
+        },
+        {
+          "day": 2,
+          "start": "10:00",
+          "end": "17:00"
+        },
+        {
+          "day": 3,
+          "start": "10:00",
+          "end": "17:00"
+        },
+        {
+          "day": 4,
+          "start": "10:00",
+          "end": "17:00"
+        },
+        {
+          "day": 6,
+          "start": "10:00",
+          "end": "17:00"
+        }
+      ],
+      "exceptions": [],
+      "delivery": [
+        "pickup",
+        "family_delivery"
+      ]
+    },
+    {
+      "id": "family-8",
+      "name": "أم محمد",
+      "email": "family8@example.test",
+      "region": "الطائف",
+      "role": "family",
+      "approved": true,
+      "weeklyHours": [
+        {
+          "day": 0,
+          "start": "13:00",
+          "end": "19:00"
+        },
+        {
+          "day": 1,
+          "start": "13:00",
+          "end": "19:00"
+        },
+        {
+          "day": 2,
+          "start": "13:00",
+          "end": "19:00"
+        },
+        {
+          "day": 3,
+          "start": "13:00",
+          "end": "19:00"
+        },
+        {
+          "day": 4,
+          "start": "13:00",
+          "end": "19:00"
+        },
+        {
+          "day": 6,
+          "start": "13:00",
+          "end": "19:00"
+        }
+      ],
+      "exceptions": [
+        {
+          "date": "2026-10-16",
+          "closed": false,
+          "start": "16:00",
+          "end": "20:00"
+        }
+      ],
+      "delivery": [
+        "pickup",
+        "family_delivery"
+      ]
+    },
+    {
+      "id": "family-9",
+      "name": "أم لطيفة",
+      "email": "family9@example.test",
+      "region": "الأحساء",
+      "role": "family",
+      "approved": true,
+      "weeklyHours": [
+        {
+          "day": 0,
+          "start": "09:00",
+          "end": "15:00"
+        },
+        {
+          "day": 1,
+          "start": "09:00",
+          "end": "15:00"
+        },
+        {
+          "day": 2,
+          "start": "09:00",
+          "end": "15:00"
+        },
+        {
+          "day": 3,
+          "start": "09:00",
+          "end": "15:00"
+        },
+        {
+          "day": 4,
+          "start": "09:00",
+          "end": "15:00"
+        },
+        {
+          "day": 6,
+          "start": "09:00",
+          "end": "15:00"
+        }
+      ],
+      "exceptions": [],
+      "delivery": [
+        "pickup",
+        "family_delivery"
+      ]
+    },
+    {
+      "id": "family-10",
+      "name": "أم هند",
+      "email": "family10@example.test",
+      "region": "تبوك",
+      "role": "family",
+      "approved": true,
+      "weeklyHours": [
+        {
+          "day": 0,
+          "start": "16:00",
+          "end": "21:00"
+        },
+        {
+          "day": 1,
+          "start": "16:00",
+          "end": "21:00"
+        },
+        {
+          "day": 2,
+          "start": "16:00",
+          "end": "21:00"
+        },
+        {
+          "day": 3,
+          "start": "16:00",
+          "end": "21:00"
+        },
+        {
+          "day": 4,
+          "start": "16:00",
+          "end": "21:00"
+        },
+        {
+          "day": 6,
+          "start": "16:00",
+          "end": "21:00"
+        }
+      ],
+      "exceptions": [],
+      "delivery": [
+        "pickup",
+        "family_delivery"
+      ]
+    }
+  ],
+  "customers": [
+    {
+      "id": "customer-1",
+      "name": "عبدالله القحطاني",
+      "email": "customer1@example.test",
+      "role": "customer"
+    },
+    {
+      "id": "customer-2",
+      "name": "نورة العتيبي",
+      "email": "customer2@example.test",
+      "role": "customer"
+    },
+    {
+      "id": "customer-3",
+      "name": "خالد الدوسري",
+      "email": "customer3@example.test",
+      "role": "customer"
+    },
+    {
+      "id": "customer-4",
+      "name": "سارة الحربي",
+      "email": "customer4@example.test",
+      "role": "customer"
+    },
+    {
+      "id": "customer-5",
+      "name": "محمد الغامدي",
+      "email": "customer5@example.test",
+      "role": "customer"
+    },
+    {
+      "id": "customer-6",
+      "name": "ريم الشهري",
+      "email": "customer6@example.test",
+      "role": "customer"
+    },
+    {
+      "id": "customer-7",
+      "name": "فهد المطيري",
+      "email": "customer7@example.test",
+      "role": "customer"
+    },
+    {
+      "id": "customer-8",
+      "name": "هند الزهراني",
+      "email": "customer8@example.test",
+      "role": "customer"
+    },
+    {
+      "id": "customer-9",
+      "name": "صالح السبيعي",
+      "email": "customer9@example.test",
+      "role": "customer"
+    },
+    {
+      "id": "customer-10",
+      "name": "لطيفة الشمري",
+      "email": "customer10@example.test",
+      "role": "customer"
+    }
+  ],
+  "products": [
+    {
+      "id": "product-1",
+      "familyId": "family-1",
+      "name": "جريش نجدي",
+      "region": "الرياض",
+      "category": "Food",
+      "description": "جريش قمح مجروش مطهو ببطء مع البصل والبهارات على الطريقة النجدية.",
+      "priceHalalas": 3500,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-2",
+      "familyId": "family-1",
+      "name": "مرقوق نجدي",
+      "region": "الرياض",
+      "category": "Food",
+      "description": "عجين مرقوق رقيق مطهو مع الخضار والمرق على الطريقة النجدية.",
+      "priceHalalas": 4000,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-3",
+      "familyId": "family-1",
+      "name": "حنيني",
+      "region": "الرياض",
+      "category": "Food",
+      "description": "حنيني منزلي من أم صالح. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 2500,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-4",
+      "familyId": "family-2",
+      "name": "معمول تمر",
+      "region": "جدة",
+      "category": "Food",
+      "description": "معمول تمر منزلي من أم نورة. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 3000,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": true,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-5",
+      "familyId": "family-2",
+      "name": "كوكيز منزلي",
+      "region": "جدة",
+      "category": "Food",
+      "description": "كوكيز منزلي منزلي من أم نورة. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 2800,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-6",
+      "familyId": "family-2",
+      "name": "كيكة زعفران",
+      "region": "جدة",
+      "category": "Food",
+      "description": "كيكة زعفران منزلي من أم نورة. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 6500,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": true,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-7",
+      "familyId": "family-3",
+      "name": "ورق عنب",
+      "region": "الدمام",
+      "category": "Food",
+      "description": "ورق عنب منزلي من أم عبدالله. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 4500,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-8",
+      "familyId": "family-3",
+      "name": "كبة منزلية",
+      "region": "الدمام",
+      "category": "Food",
+      "description": "كبة منزلية منزلي من أم عبدالله. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 3800,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-9",
+      "familyId": "family-3",
+      "name": "فطائر مشكلة",
+      "region": "الدمام",
+      "category": "Food",
+      "description": "فطائر مشكلة منزلي من أم عبدالله. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 3200,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-10",
+      "familyId": "family-4",
+      "name": "منتو",
+      "region": "مكة",
+      "category": "Food",
+      "description": "منتو منزلي من أم فهد. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 3500,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-11",
+      "familyId": "family-4",
+      "name": "يغمش",
+      "region": "مكة",
+      "category": "Food",
+      "description": "يغمش منزلي من أم فهد. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 3000,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-12",
+      "familyId": "family-4",
+      "name": "سمبوسة",
+      "region": "مكة",
+      "category": "Food",
+      "description": "سمبوسة منزلي من أم فهد. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 2500,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-13",
+      "familyId": "family-5",
+      "name": "دقة مدينية",
+      "region": "المدينة المنورة",
+      "category": "Food",
+      "description": "دقة مدينية منزلي من أم سارة. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 2000,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-14",
+      "familyId": "family-5",
+      "name": "تمر محشو",
+      "region": "المدينة المنورة",
+      "category": "Food",
+      "description": "تمر محشو منزلي من أم سارة. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 4500,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": true,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-15",
+      "familyId": "family-5",
+      "name": "بسكويت منزلي",
+      "region": "المدينة المنورة",
+      "category": "Food",
+      "description": "بسكويت منزلي منزلي من أم سارة. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 2500,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-16",
+      "familyId": "family-6",
+      "name": "كليجا",
+      "region": "بريدة",
+      "category": "Food",
+      "description": "كليجا منزلي من أم خالد. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 3000,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": true,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-17",
+      "familyId": "family-6",
+      "name": "قرص عقيلي",
+      "region": "بريدة",
+      "category": "Food",
+      "description": "قرص عقيلي منزلي من أم خالد. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 4000,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-18",
+      "familyId": "family-6",
+      "name": "لقيمات",
+      "region": "بريدة",
+      "category": "Food",
+      "description": "لقيمات منزلي من أم خالد. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 2200,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-19",
+      "familyId": "family-7",
+      "name": "سلة خوص",
+      "region": "أبها",
+      "category": "Crafts",
+      "description": "سلة خوص مصنوع يدوياً من أم ريم. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 7000,
+      "stock": 8,
+      "preparationHours": 24,
+      "giftSuitable": true,
+      "unit": "قطعة",
+      "image": null
+    },
+    {
+      "id": "product-20",
+      "familyId": "family-7",
+      "name": "مفرش مطرز",
+      "region": "أبها",
+      "category": "Crafts",
+      "description": "مفرش مطرز مصنوع يدوياً من أم ريم. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 12000,
+      "stock": 8,
+      "preparationHours": 24,
+      "giftSuitable": true,
+      "unit": "قطعة",
+      "image": null
+    },
+    {
+      "id": "product-21",
+      "familyId": "family-7",
+      "name": "حقيبة قماش",
+      "region": "أبها",
+      "category": "Crafts",
+      "description": "حقيبة قماش مصنوع يدوياً من أم ريم. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 5500,
+      "stock": 8,
+      "preparationHours": 24,
+      "giftSuitable": true,
+      "unit": "قطعة",
+      "image": null
+    },
+    {
+      "id": "product-22",
+      "familyId": "family-8",
+      "name": "شمعة برائحة الورد",
+      "region": "الطائف",
+      "category": "Crafts",
+      "description": "شمعة برائحة الورد مصنوع يدوياً من أم محمد. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 4500,
+      "stock": 8,
+      "preparationHours": 24,
+      "giftSuitable": true,
+      "unit": "قطعة",
+      "image": null
+    },
+    {
+      "id": "product-23",
+      "familyId": "family-8",
+      "name": "صابون ورد",
+      "region": "الطائف",
+      "category": "Crafts",
+      "description": "صابون ورد مصنوع يدوياً من أم محمد. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 2500,
+      "stock": 8,
+      "preparationHours": 24,
+      "giftSuitable": true,
+      "unit": "قطعة",
+      "image": null
+    },
+    {
+      "id": "product-24",
+      "familyId": "family-8",
+      "name": "صندوق هدية ورد",
+      "region": "الطائف",
+      "category": "Crafts",
+      "description": "صندوق هدية ورد مصنوع يدوياً من أم محمد. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 9500,
+      "stock": 8,
+      "preparationHours": 24,
+      "giftSuitable": true,
+      "unit": "قطعة",
+      "image": null
+    },
+    {
+      "id": "product-25",
+      "familyId": "family-9",
+      "name": "تعليقة نخلة",
+      "region": "الأحساء",
+      "category": "Crafts",
+      "description": "تعليقة نخلة مصنوع يدوياً من أم لطيفة. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 2000,
+      "stock": 8,
+      "preparationHours": 24,
+      "giftSuitable": true,
+      "unit": "قطعة",
+      "image": null
+    },
+    {
+      "id": "product-26",
+      "familyId": "family-9",
+      "name": "سلة تراثية",
+      "region": "الأحساء",
+      "category": "Crafts",
+      "description": "سلة تراثية مصنوع يدوياً من أم لطيفة. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 8500,
+      "stock": 8,
+      "preparationHours": 24,
+      "giftSuitable": true,
+      "unit": "قطعة",
+      "image": null
+    },
+    {
+      "id": "product-27",
+      "familyId": "family-9",
+      "name": "حافظة مطرزة",
+      "region": "الأحساء",
+      "category": "Crafts",
+      "description": "حافظة مطرزة مصنوع يدوياً من أم لطيفة. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 4000,
+      "stock": 8,
+      "preparationHours": 24,
+      "giftSuitable": true,
+      "unit": "قطعة",
+      "image": null
+    },
+    {
+      "id": "product-28",
+      "familyId": "family-10",
+      "name": "كوب مزين",
+      "region": "تبوك",
+      "category": "Crafts",
+      "description": "كوب مزين مصنوع يدوياً من أم هند. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 3500,
+      "stock": 8,
+      "preparationHours": 24,
+      "giftSuitable": true,
+      "unit": "قطعة",
+      "image": null
+    },
+    {
+      "id": "product-29",
+      "familyId": "family-10",
+      "name": "دفتر مزخرف",
+      "region": "تبوك",
+      "category": "Crafts",
+      "description": "دفتر مزخرف مصنوع يدوياً من أم هند. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 3000,
+      "stock": 8,
+      "preparationHours": 24,
+      "giftSuitable": true,
+      "unit": "قطعة",
+      "image": null
+    },
+    {
+      "id": "product-30",
+      "familyId": "family-10",
+      "name": "طقم هدية يدوي",
+      "region": "تبوك",
+      "category": "Crafts",
+      "description": "طقم هدية يدوي مصنوع يدوياً من أم هند. منتج تجريبي لا يمثل عرضاً حقيقياً للبيع.",
+      "priceHalalas": 9000,
+      "stock": 8,
+      "preparationHours": 24,
+      "giftSuitable": true,
+      "unit": "قطعة",
+      "image": null
+    },
+    {
+      "id": "product-31",
+      "familyId": "family-1",
+      "name": "جريش أبيض",
+      "region": "الرياض",
+      "category": "Food",
+      "description": "جريش قمح مجروش مطهو ببطء بقوام كريمي، يقدم مع البصل المحمّر.",
+      "priceHalalas": 3800,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-32",
+      "familyId": "family-1",
+      "name": "جريش أحمر",
+      "region": "الرياض",
+      "category": "Food",
+      "description": "جريش قمح مجروش بصلصة الطماطم والبهارات النجدية.",
+      "priceHalalas": 3800,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-33",
+      "familyId": "family-1",
+      "name": "قرصان نجدي",
+      "region": "الرياض",
+      "category": "Food",
+      "description": "رقائق قرصان مع الخضار والمرق بتتبيلة نجدية.",
+      "priceHalalas": 4000,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-34",
+      "familyId": "family-2",
+      "name": "كبسة دجاج",
+      "region": "جدة",
+      "category": "Food",
+      "description": "كبسة أرز بسمتي بالدجاج والبهارات السعودية.",
+      "priceHalalas": 5500,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-35",
+      "familyId": "family-4",
+      "name": "سليق طائفي",
+      "region": "مكة",
+      "category": "Food",
+      "description": "أرز بالحليب والمرق مع الدجاج على الطريقة الطائفية.",
+      "priceHalalas": 5000,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    },
+    {
+      "id": "product-36",
+      "familyId": "family-6",
+      "name": "كليجا بالتمر",
+      "region": "بريدة",
+      "category": "Food",
+      "description": "كليجا قصيمية محشوة بالتمر والهيل.",
+      "priceHalalas": 3200,
+      "stock": 20,
+      "preparationHours": 4,
+      "giftSuitable": false,
+      "unit": "علبة تجريبية",
+      "image": null
+    }
+  ],
+  "events": [
+    {
+      "customerId": "customer-1",
+      "type": "search",
+      "query": "أبي جريش في الرياض",
+      "at": "2026-10-09T10:00:00+03:00"
+    },
+    {
+      "customerId": "customer-1",
+      "type": "view",
+      "productId": "product-1",
+      "at": "2026-10-09T10:01:00+03:00"
+    },
+    {
+      "customerId": "customer-1",
+      "type": "view",
+      "productId": "product-2",
+      "at": "2026-10-09T10:02:00+03:00"
+    },
+    {
+      "customerId": "customer-1",
+      "type": "view",
+      "productId": "product-1",
+      "at": "2026-10-09T10:03:00+03:00"
+    },
+    {
+      "customerId": "customer-1",
+      "type": "recommendation_click",
+      "productId": "product-2",
+      "at": "2026-10-09T10:05:00+03:00"
+    },
+    {
+      "customerId": "customer-1",
+      "type": "add_to_cart",
+      "productId": "product-1",
+      "at": "2026-10-09T10:06:00+03:00"
+    },
+    {
+      "customerId": "customer-2",
+      "type": "search",
+      "query": "أبي معمول تمر في جدة",
+      "at": "2026-10-09T10:00:00+03:00"
+    },
+    {
+      "customerId": "customer-2",
+      "type": "view",
+      "productId": "product-4",
+      "at": "2026-10-09T10:01:00+03:00"
+    },
+    {
+      "customerId": "customer-2",
+      "type": "view",
+      "productId": "product-5",
+      "at": "2026-10-09T10:02:00+03:00"
+    },
+    {
+      "customerId": "customer-2",
+      "type": "view",
+      "productId": "product-4",
+      "at": "2026-10-09T10:03:00+03:00"
+    },
+    {
+      "customerId": "customer-2",
+      "type": "recommendation_click",
+      "productId": "product-5",
+      "at": "2026-10-09T10:05:00+03:00"
+    },
+    {
+      "customerId": "customer-2",
+      "type": "add_to_cart",
+      "productId": "product-4",
+      "at": "2026-10-09T10:06:00+03:00"
+    },
+    {
+      "customerId": "customer-3",
+      "type": "search",
+      "query": "أبي ورق عنب في الدمام",
+      "at": "2026-10-09T10:00:00+03:00"
+    },
+    {
+      "customerId": "customer-3",
+      "type": "view",
+      "productId": "product-7",
+      "at": "2026-10-09T10:01:00+03:00"
+    },
+    {
+      "customerId": "customer-3",
+      "type": "view",
+      "productId": "product-8",
+      "at": "2026-10-09T10:02:00+03:00"
+    },
+    {
+      "customerId": "customer-3",
+      "type": "view",
+      "productId": "product-7",
+      "at": "2026-10-09T10:03:00+03:00"
+    },
+    {
+      "customerId": "customer-3",
+      "type": "recommendation_click",
+      "productId": "product-8",
+      "at": "2026-10-09T10:05:00+03:00"
+    },
+    {
+      "customerId": "customer-3",
+      "type": "add_to_cart",
+      "productId": "product-7",
+      "at": "2026-10-09T10:06:00+03:00"
+    },
+    {
+      "customerId": "customer-4",
+      "type": "search",
+      "query": "أبي منتو في مكة",
+      "at": "2026-10-09T10:00:00+03:00"
+    },
+    {
+      "customerId": "customer-4",
+      "type": "view",
+      "productId": "product-10",
+      "at": "2026-10-09T10:01:00+03:00"
+    },
+    {
+      "customerId": "customer-4",
+      "type": "view",
+      "productId": "product-11",
+      "at": "2026-10-09T10:02:00+03:00"
+    },
+    {
+      "customerId": "customer-4",
+      "type": "view",
+      "productId": "product-10",
+      "at": "2026-10-09T10:03:00+03:00"
+    },
+    {
+      "customerId": "customer-4",
+      "type": "recommendation_click",
+      "productId": "product-11",
+      "at": "2026-10-09T10:05:00+03:00"
+    },
+    {
+      "customerId": "customer-4",
+      "type": "add_to_cart",
+      "productId": "product-10",
+      "at": "2026-10-09T10:06:00+03:00"
+    },
+    {
+      "customerId": "customer-5",
+      "type": "search",
+      "query": "أبي دقة مدينية في المدينة المنورة",
+      "at": "2026-10-09T10:00:00+03:00"
+    },
+    {
+      "customerId": "customer-5",
+      "type": "view",
+      "productId": "product-13",
+      "at": "2026-10-09T10:01:00+03:00"
+    },
+    {
+      "customerId": "customer-5",
+      "type": "view",
+      "productId": "product-14",
+      "at": "2026-10-09T10:02:00+03:00"
+    },
+    {
+      "customerId": "customer-5",
+      "type": "view",
+      "productId": "product-13",
+      "at": "2026-10-09T10:03:00+03:00"
+    },
+    {
+      "customerId": "customer-5",
+      "type": "recommendation_click",
+      "productId": "product-14",
+      "at": "2026-10-09T10:05:00+03:00"
+    },
+    {
+      "customerId": "customer-5",
+      "type": "add_to_cart",
+      "productId": "product-13",
+      "at": "2026-10-09T10:06:00+03:00"
+    },
+    {
+      "customerId": "customer-6",
+      "type": "search",
+      "query": "أبي كليجا في بريدة",
+      "at": "2026-10-09T10:00:00+03:00"
+    },
+    {
+      "customerId": "customer-6",
+      "type": "view",
+      "productId": "product-16",
+      "at": "2026-10-09T10:01:00+03:00"
+    },
+    {
+      "customerId": "customer-6",
+      "type": "view",
+      "productId": "product-17",
+      "at": "2026-10-09T10:02:00+03:00"
+    },
+    {
+      "customerId": "customer-6",
+      "type": "view",
+      "productId": "product-16",
+      "at": "2026-10-09T10:03:00+03:00"
+    },
+    {
+      "customerId": "customer-6",
+      "type": "recommendation_click",
+      "productId": "product-17",
+      "at": "2026-10-09T10:05:00+03:00"
+    },
+    {
+      "customerId": "customer-6",
+      "type": "add_to_cart",
+      "productId": "product-16",
+      "at": "2026-10-09T10:06:00+03:00"
+    },
+    {
+      "customerId": "customer-7",
+      "type": "search",
+      "query": "أبي هدية بأقل من مئة ريال في أبها",
+      "at": "2026-10-09T10:00:00+03:00"
+    },
+    {
+      "customerId": "customer-7",
+      "type": "view",
+      "productId": "product-19",
+      "at": "2026-10-09T10:01:00+03:00"
+    },
+    {
+      "customerId": "customer-7",
+      "type": "view",
+      "productId": "product-20",
+      "at": "2026-10-09T10:02:00+03:00"
+    },
+    {
+      "customerId": "customer-7",
+      "type": "view",
+      "productId": "product-19",
+      "at": "2026-10-09T10:03:00+03:00"
+    },
+    {
+      "customerId": "customer-7",
+      "type": "recommendation_click",
+      "productId": "product-20",
+      "at": "2026-10-09T10:05:00+03:00"
+    },
+    {
+      "customerId": "customer-7",
+      "type": "add_to_cart",
+      "productId": "product-19",
+      "at": "2026-10-09T10:06:00+03:00"
+    },
+    {
+      "customerId": "customer-8",
+      "type": "search",
+      "query": "أبي هدية بأقل من مئة ريال في الطائف",
+      "at": "2026-10-09T10:00:00+03:00"
+    },
+    {
+      "customerId": "customer-8",
+      "type": "view",
+      "productId": "product-22",
+      "at": "2026-10-09T10:01:00+03:00"
+    },
+    {
+      "customerId": "customer-8",
+      "type": "view",
+      "productId": "product-23",
+      "at": "2026-10-09T10:02:00+03:00"
+    },
+    {
+      "customerId": "customer-8",
+      "type": "view",
+      "productId": "product-22",
+      "at": "2026-10-09T10:03:00+03:00"
+    },
+    {
+      "customerId": "customer-8",
+      "type": "recommendation_click",
+      "productId": "product-23",
+      "at": "2026-10-09T10:05:00+03:00"
+    },
+    {
+      "customerId": "customer-8",
+      "type": "add_to_cart",
+      "productId": "product-22",
+      "at": "2026-10-09T10:06:00+03:00"
+    },
+    {
+      "customerId": "customer-9",
+      "type": "search",
+      "query": "أبي هدية بأقل من مئة ريال في الأحساء",
+      "at": "2026-10-09T10:00:00+03:00"
+    },
+    {
+      "customerId": "customer-9",
+      "type": "view",
+      "productId": "product-25",
+      "at": "2026-10-09T10:01:00+03:00"
+    },
+    {
+      "customerId": "customer-9",
+      "type": "view",
+      "productId": "product-26",
+      "at": "2026-10-09T10:02:00+03:00"
+    },
+    {
+      "customerId": "customer-9",
+      "type": "view",
+      "productId": "product-25",
+      "at": "2026-10-09T10:03:00+03:00"
+    },
+    {
+      "customerId": "customer-9",
+      "type": "recommendation_click",
+      "productId": "product-26",
+      "at": "2026-10-09T10:05:00+03:00"
+    },
+    {
+      "customerId": "customer-9",
+      "type": "add_to_cart",
+      "productId": "product-25",
+      "at": "2026-10-09T10:06:00+03:00"
+    },
+    {
+      "customerId": "customer-10",
+      "type": "search",
+      "query": "أبي هدية بأقل من مئة ريال في تبوك",
+      "at": "2026-10-09T10:00:00+03:00"
+    },
+    {
+      "customerId": "customer-10",
+      "type": "view",
+      "productId": "product-28",
+      "at": "2026-10-09T10:01:00+03:00"
+    },
+    {
+      "customerId": "customer-10",
+      "type": "view",
+      "productId": "product-29",
+      "at": "2026-10-09T10:02:00+03:00"
+    },
+    {
+      "customerId": "customer-10",
+      "type": "view",
+      "productId": "product-28",
+      "at": "2026-10-09T10:03:00+03:00"
+    },
+    {
+      "customerId": "customer-10",
+      "type": "recommendation_click",
+      "productId": "product-29",
+      "at": "2026-10-09T10:05:00+03:00"
+    },
+    {
+      "customerId": "customer-10",
+      "type": "add_to_cart",
+      "productId": "product-28",
+      "at": "2026-10-09T10:06:00+03:00"
+    }
+  ],
+  "orders": [
+    {
+      "id": "demo-order-1",
+      "customerId": "customer-1",
+      "familyId": "family-1",
+      "items": [
+        {
+          "productId": "product-1",
+          "quantity": 1,
+          "unitPriceHalalas": 3500
+        }
+      ],
+      "totalHalalas": 3500,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-10T16:00:00+03:00",
+      "createdAt": "2026-09-10T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-2",
+      "customerId": "customer-1",
+      "familyId": "family-1",
+      "items": [
+        {
+          "productId": "product-2",
+          "quantity": 2,
+          "unitPriceHalalas": 4000
+        }
+      ],
+      "totalHalalas": 8000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-15T16:00:00+03:00",
+      "createdAt": "2026-09-15T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-3",
+      "customerId": "customer-1",
+      "familyId": "family-1",
+      "items": [
+        {
+          "productId": "product-3",
+          "quantity": 1,
+          "unitPriceHalalas": 2500
+        }
+      ],
+      "totalHalalas": 2500,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-20T16:00:00+03:00",
+      "createdAt": "2026-09-20T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-4",
+      "customerId": "customer-1",
+      "familyId": "family-1",
+      "items": [
+        {
+          "productId": "product-1",
+          "quantity": 2,
+          "unitPriceHalalas": 3500
+        }
+      ],
+      "totalHalalas": 7000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-24T16:00:00+03:00",
+      "createdAt": "2026-09-24T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-5",
+      "customerId": "customer-1",
+      "familyId": "family-1",
+      "items": [
+        {
+          "productId": "product-2",
+          "quantity": 1,
+          "unitPriceHalalas": 4000
+        }
+      ],
+      "totalHalalas": 4000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-30T16:00:00+03:00",
+      "createdAt": "2026-09-30T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-6",
+      "customerId": "customer-1",
+      "familyId": "family-1",
+      "items": [
+        {
+          "productId": "product-3",
+          "quantity": 2,
+          "unitPriceHalalas": 2500
+        }
+      ],
+      "totalHalalas": 5000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-05T16:00:00+03:00",
+      "createdAt": "2026-10-05T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-7",
+      "customerId": "customer-2",
+      "familyId": "family-2",
+      "items": [
+        {
+          "productId": "product-4",
+          "quantity": 1,
+          "unitPriceHalalas": 3000
+        }
+      ],
+      "totalHalalas": 3000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-10T15:00:00+03:00",
+      "createdAt": "2026-09-10T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-8",
+      "customerId": "customer-2",
+      "familyId": "family-2",
+      "items": [
+        {
+          "productId": "product-5",
+          "quantity": 2,
+          "unitPriceHalalas": 2800
+        }
+      ],
+      "totalHalalas": 5600,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-16T15:00:00+03:00",
+      "createdAt": "2026-09-16T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-9",
+      "customerId": "customer-2",
+      "familyId": "family-2",
+      "items": [
+        {
+          "productId": "product-6",
+          "quantity": 1,
+          "unitPriceHalalas": 6500
+        }
+      ],
+      "totalHalalas": 6500,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-21T15:00:00+03:00",
+      "createdAt": "2026-09-21T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-10",
+      "customerId": "customer-2",
+      "familyId": "family-2",
+      "items": [
+        {
+          "productId": "product-4",
+          "quantity": 2,
+          "unitPriceHalalas": 3000
+        }
+      ],
+      "totalHalalas": 6000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-26T15:00:00+03:00",
+      "createdAt": "2026-09-26T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-11",
+      "customerId": "customer-2",
+      "familyId": "family-2",
+      "items": [
+        {
+          "productId": "product-5",
+          "quantity": 1,
+          "unitPriceHalalas": 2800
+        }
+      ],
+      "totalHalalas": 2800,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-01T15:00:00+03:00",
+      "createdAt": "2026-10-01T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-12",
+      "customerId": "customer-2",
+      "familyId": "family-2",
+      "items": [
+        {
+          "productId": "product-6",
+          "quantity": 2,
+          "unitPriceHalalas": 6500
+        }
+      ],
+      "totalHalalas": 13000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-06T15:00:00+03:00",
+      "createdAt": "2026-10-06T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-13",
+      "customerId": "customer-3",
+      "familyId": "family-3",
+      "items": [
+        {
+          "productId": "product-7",
+          "quantity": 1,
+          "unitPriceHalalas": 4500
+        }
+      ],
+      "totalHalalas": 4500,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-12T12:00:00+03:00",
+      "createdAt": "2026-09-12T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-14",
+      "customerId": "customer-3",
+      "familyId": "family-3",
+      "items": [
+        {
+          "productId": "product-8",
+          "quantity": 2,
+          "unitPriceHalalas": 3800
+        }
+      ],
+      "totalHalalas": 7600,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-17T12:00:00+03:00",
+      "createdAt": "2026-09-17T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-15",
+      "customerId": "customer-3",
+      "familyId": "family-3",
+      "items": [
+        {
+          "productId": "product-9",
+          "quantity": 1,
+          "unitPriceHalalas": 3200
+        }
+      ],
+      "totalHalalas": 3200,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-22T12:00:00+03:00",
+      "createdAt": "2026-09-22T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-16",
+      "customerId": "customer-3",
+      "familyId": "family-3",
+      "items": [
+        {
+          "productId": "product-7",
+          "quantity": 2,
+          "unitPriceHalalas": 4500
+        }
+      ],
+      "totalHalalas": 9000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-27T12:00:00+03:00",
+      "createdAt": "2026-09-27T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-17",
+      "customerId": "customer-3",
+      "familyId": "family-3",
+      "items": [
+        {
+          "productId": "product-8",
+          "quantity": 1,
+          "unitPriceHalalas": 3800
+        }
+      ],
+      "totalHalalas": 3800,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-01T12:00:00+03:00",
+      "createdAt": "2026-10-01T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-18",
+      "customerId": "customer-3",
+      "familyId": "family-3",
+      "items": [
+        {
+          "productId": "product-9",
+          "quantity": 2,
+          "unitPriceHalalas": 3200
+        }
+      ],
+      "totalHalalas": 6400,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-07T12:00:00+03:00",
+      "createdAt": "2026-10-07T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-19",
+      "customerId": "customer-4",
+      "familyId": "family-4",
+      "items": [
+        {
+          "productId": "product-10",
+          "quantity": 1,
+          "unitPriceHalalas": 3500
+        }
+      ],
+      "totalHalalas": 3500,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-10T16:00:00+03:00",
+      "createdAt": "2026-09-10T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-20",
+      "customerId": "customer-4",
+      "familyId": "family-4",
+      "items": [
+        {
+          "productId": "product-11",
+          "quantity": 2,
+          "unitPriceHalalas": 3000
+        }
+      ],
+      "totalHalalas": 6000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-15T16:00:00+03:00",
+      "createdAt": "2026-09-15T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-21",
+      "customerId": "customer-4",
+      "familyId": "family-4",
+      "items": [
+        {
+          "productId": "product-12",
+          "quantity": 1,
+          "unitPriceHalalas": 2500
+        }
+      ],
+      "totalHalalas": 2500,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-20T16:00:00+03:00",
+      "createdAt": "2026-09-20T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-22",
+      "customerId": "customer-4",
+      "familyId": "family-4",
+      "items": [
+        {
+          "productId": "product-10",
+          "quantity": 2,
+          "unitPriceHalalas": 3500
+        }
+      ],
+      "totalHalalas": 7000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-24T16:00:00+03:00",
+      "createdAt": "2026-09-24T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-23",
+      "customerId": "customer-4",
+      "familyId": "family-4",
+      "items": [
+        {
+          "productId": "product-11",
+          "quantity": 1,
+          "unitPriceHalalas": 3000
+        }
+      ],
+      "totalHalalas": 3000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-30T16:00:00+03:00",
+      "createdAt": "2026-09-30T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-24",
+      "customerId": "customer-4",
+      "familyId": "family-4",
+      "items": [
+        {
+          "productId": "product-12",
+          "quantity": 2,
+          "unitPriceHalalas": 2500
+        }
+      ],
+      "totalHalalas": 5000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-05T16:00:00+03:00",
+      "createdAt": "2026-10-05T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-25",
+      "customerId": "customer-5",
+      "familyId": "family-5",
+      "items": [
+        {
+          "productId": "product-13",
+          "quantity": 1,
+          "unitPriceHalalas": 2000
+        }
+      ],
+      "totalHalalas": 2000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-10T10:00:00+03:00",
+      "createdAt": "2026-09-10T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-26",
+      "customerId": "customer-5",
+      "familyId": "family-5",
+      "items": [
+        {
+          "productId": "product-14",
+          "quantity": 2,
+          "unitPriceHalalas": 4500
+        }
+      ],
+      "totalHalalas": 9000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-16T10:00:00+03:00",
+      "createdAt": "2026-09-16T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-27",
+      "customerId": "customer-5",
+      "familyId": "family-5",
+      "items": [
+        {
+          "productId": "product-15",
+          "quantity": 1,
+          "unitPriceHalalas": 2500
+        }
+      ],
+      "totalHalalas": 2500,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-21T10:00:00+03:00",
+      "createdAt": "2026-09-21T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-28",
+      "customerId": "customer-5",
+      "familyId": "family-5",
+      "items": [
+        {
+          "productId": "product-13",
+          "quantity": 2,
+          "unitPriceHalalas": 2000
+        }
+      ],
+      "totalHalalas": 4000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-26T10:00:00+03:00",
+      "createdAt": "2026-09-26T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-29",
+      "customerId": "customer-5",
+      "familyId": "family-5",
+      "items": [
+        {
+          "productId": "product-14",
+          "quantity": 1,
+          "unitPriceHalalas": 4500
+        }
+      ],
+      "totalHalalas": 4500,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-01T10:00:00+03:00",
+      "createdAt": "2026-10-01T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-30",
+      "customerId": "customer-5",
+      "familyId": "family-5",
+      "items": [
+        {
+          "productId": "product-15",
+          "quantity": 2,
+          "unitPriceHalalas": 2500
+        }
+      ],
+      "totalHalalas": 5000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-06T10:00:00+03:00",
+      "createdAt": "2026-10-06T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-31",
+      "customerId": "customer-6",
+      "familyId": "family-6",
+      "items": [
+        {
+          "productId": "product-16",
+          "quantity": 1,
+          "unitPriceHalalas": 3000
+        }
+      ],
+      "totalHalalas": 3000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-12T15:00:00+03:00",
+      "createdAt": "2026-09-12T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-32",
+      "customerId": "customer-6",
+      "familyId": "family-6",
+      "items": [
+        {
+          "productId": "product-17",
+          "quantity": 2,
+          "unitPriceHalalas": 4000
+        }
+      ],
+      "totalHalalas": 8000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-17T15:00:00+03:00",
+      "createdAt": "2026-09-17T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-33",
+      "customerId": "customer-6",
+      "familyId": "family-6",
+      "items": [
+        {
+          "productId": "product-18",
+          "quantity": 1,
+          "unitPriceHalalas": 2200
+        }
+      ],
+      "totalHalalas": 2200,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-22T15:00:00+03:00",
+      "createdAt": "2026-09-22T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-34",
+      "customerId": "customer-6",
+      "familyId": "family-6",
+      "items": [
+        {
+          "productId": "product-16",
+          "quantity": 2,
+          "unitPriceHalalas": 3000
+        }
+      ],
+      "totalHalalas": 6000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-27T15:00:00+03:00",
+      "createdAt": "2026-09-27T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-35",
+      "customerId": "customer-6",
+      "familyId": "family-6",
+      "items": [
+        {
+          "productId": "product-17",
+          "quantity": 1,
+          "unitPriceHalalas": 4000
+        }
+      ],
+      "totalHalalas": 4000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-01T15:00:00+03:00",
+      "createdAt": "2026-10-01T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-36",
+      "customerId": "customer-6",
+      "familyId": "family-6",
+      "items": [
+        {
+          "productId": "product-18",
+          "quantity": 2,
+          "unitPriceHalalas": 2200
+        }
+      ],
+      "totalHalalas": 4400,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-07T15:00:00+03:00",
+      "createdAt": "2026-10-07T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-37",
+      "customerId": "customer-7",
+      "familyId": "family-7",
+      "items": [
+        {
+          "productId": "product-19",
+          "quantity": 1,
+          "unitPriceHalalas": 7000
+        }
+      ],
+      "totalHalalas": 7000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-10T10:00:00+03:00",
+      "createdAt": "2026-09-10T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-38",
+      "customerId": "customer-7",
+      "familyId": "family-7",
+      "items": [
+        {
+          "productId": "product-20",
+          "quantity": 2,
+          "unitPriceHalalas": 12000
+        }
+      ],
+      "totalHalalas": 24000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-15T10:00:00+03:00",
+      "createdAt": "2026-09-15T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-39",
+      "customerId": "customer-7",
+      "familyId": "family-7",
+      "items": [
+        {
+          "productId": "product-21",
+          "quantity": 1,
+          "unitPriceHalalas": 5500
+        }
+      ],
+      "totalHalalas": 5500,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-20T10:00:00+03:00",
+      "createdAt": "2026-09-20T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-40",
+      "customerId": "customer-7",
+      "familyId": "family-7",
+      "items": [
+        {
+          "productId": "product-19",
+          "quantity": 2,
+          "unitPriceHalalas": 7000
+        }
+      ],
+      "totalHalalas": 14000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-24T10:00:00+03:00",
+      "createdAt": "2026-09-24T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-41",
+      "customerId": "customer-7",
+      "familyId": "family-7",
+      "items": [
+        {
+          "productId": "product-20",
+          "quantity": 1,
+          "unitPriceHalalas": 12000
+        }
+      ],
+      "totalHalalas": 12000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-30T10:00:00+03:00",
+      "createdAt": "2026-09-30T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-42",
+      "customerId": "customer-7",
+      "familyId": "family-7",
+      "items": [
+        {
+          "productId": "product-21",
+          "quantity": 2,
+          "unitPriceHalalas": 5500
+        }
+      ],
+      "totalHalalas": 11000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-05T10:00:00+03:00",
+      "createdAt": "2026-10-05T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-43",
+      "customerId": "customer-8",
+      "familyId": "family-8",
+      "items": [
+        {
+          "productId": "product-22",
+          "quantity": 1,
+          "unitPriceHalalas": 4500
+        }
+      ],
+      "totalHalalas": 4500,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-10T13:00:00+03:00",
+      "createdAt": "2026-09-10T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-44",
+      "customerId": "customer-8",
+      "familyId": "family-8",
+      "items": [
+        {
+          "productId": "product-23",
+          "quantity": 2,
+          "unitPriceHalalas": 2500
+        }
+      ],
+      "totalHalalas": 5000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-16T13:00:00+03:00",
+      "createdAt": "2026-09-16T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-45",
+      "customerId": "customer-8",
+      "familyId": "family-8",
+      "items": [
+        {
+          "productId": "product-24",
+          "quantity": 1,
+          "unitPriceHalalas": 9500
+        }
+      ],
+      "totalHalalas": 9500,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-21T13:00:00+03:00",
+      "createdAt": "2026-09-21T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-46",
+      "customerId": "customer-8",
+      "familyId": "family-8",
+      "items": [
+        {
+          "productId": "product-22",
+          "quantity": 2,
+          "unitPriceHalalas": 4500
+        }
+      ],
+      "totalHalalas": 9000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-26T13:00:00+03:00",
+      "createdAt": "2026-09-26T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-47",
+      "customerId": "customer-8",
+      "familyId": "family-8",
+      "items": [
+        {
+          "productId": "product-23",
+          "quantity": 1,
+          "unitPriceHalalas": 2500
+        }
+      ],
+      "totalHalalas": 2500,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-01T13:00:00+03:00",
+      "createdAt": "2026-10-01T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-48",
+      "customerId": "customer-8",
+      "familyId": "family-8",
+      "items": [
+        {
+          "productId": "product-24",
+          "quantity": 2,
+          "unitPriceHalalas": 9500
+        }
+      ],
+      "totalHalalas": 19000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-06T13:00:00+03:00",
+      "createdAt": "2026-10-06T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-49",
+      "customerId": "customer-9",
+      "familyId": "family-9",
+      "items": [
+        {
+          "productId": "product-25",
+          "quantity": 1,
+          "unitPriceHalalas": 2000
+        }
+      ],
+      "totalHalalas": 2000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-12T09:00:00+03:00",
+      "createdAt": "2026-09-12T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-50",
+      "customerId": "customer-9",
+      "familyId": "family-9",
+      "items": [
+        {
+          "productId": "product-26",
+          "quantity": 2,
+          "unitPriceHalalas": 8500
+        }
+      ],
+      "totalHalalas": 17000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-17T09:00:00+03:00",
+      "createdAt": "2026-09-17T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-51",
+      "customerId": "customer-9",
+      "familyId": "family-9",
+      "items": [
+        {
+          "productId": "product-27",
+          "quantity": 1,
+          "unitPriceHalalas": 4000
+        }
+      ],
+      "totalHalalas": 4000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-22T09:00:00+03:00",
+      "createdAt": "2026-09-22T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-52",
+      "customerId": "customer-9",
+      "familyId": "family-9",
+      "items": [
+        {
+          "productId": "product-25",
+          "quantity": 2,
+          "unitPriceHalalas": 2000
+        }
+      ],
+      "totalHalalas": 4000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-27T09:00:00+03:00",
+      "createdAt": "2026-09-27T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-53",
+      "customerId": "customer-9",
+      "familyId": "family-9",
+      "items": [
+        {
+          "productId": "product-26",
+          "quantity": 1,
+          "unitPriceHalalas": 8500
+        }
+      ],
+      "totalHalalas": 8500,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-01T09:00:00+03:00",
+      "createdAt": "2026-10-01T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-54",
+      "customerId": "customer-9",
+      "familyId": "family-9",
+      "items": [
+        {
+          "productId": "product-27",
+          "quantity": 2,
+          "unitPriceHalalas": 4000
+        }
+      ],
+      "totalHalalas": 8000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-07T09:00:00+03:00",
+      "createdAt": "2026-10-07T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-55",
+      "customerId": "customer-10",
+      "familyId": "family-10",
+      "items": [
+        {
+          "productId": "product-28",
+          "quantity": 1,
+          "unitPriceHalalas": 3500
+        }
+      ],
+      "totalHalalas": 3500,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-10T16:00:00+03:00",
+      "createdAt": "2026-09-10T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-56",
+      "customerId": "customer-10",
+      "familyId": "family-10",
+      "items": [
+        {
+          "productId": "product-29",
+          "quantity": 2,
+          "unitPriceHalalas": 3000
+        }
+      ],
+      "totalHalalas": 6000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-15T16:00:00+03:00",
+      "createdAt": "2026-09-15T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-57",
+      "customerId": "customer-10",
+      "familyId": "family-10",
+      "items": [
+        {
+          "productId": "product-30",
+          "quantity": 1,
+          "unitPriceHalalas": 9000
+        }
+      ],
+      "totalHalalas": 9000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-20T16:00:00+03:00",
+      "createdAt": "2026-09-20T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-58",
+      "customerId": "customer-10",
+      "familyId": "family-10",
+      "items": [
+        {
+          "productId": "product-28",
+          "quantity": 2,
+          "unitPriceHalalas": 3500
+        }
+      ],
+      "totalHalalas": 7000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-24T16:00:00+03:00",
+      "createdAt": "2026-09-24T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-59",
+      "customerId": "customer-10",
+      "familyId": "family-10",
+      "items": [
+        {
+          "productId": "product-29",
+          "quantity": 1,
+          "unitPriceHalalas": 3000
+        }
+      ],
+      "totalHalalas": 3000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-09-30T16:00:00+03:00",
+      "createdAt": "2026-09-30T08:00:00+03:00",
+      "synthetic": true
+    },
+    {
+      "id": "demo-order-60",
+      "customerId": "customer-10",
+      "familyId": "family-10",
+      "items": [
+        {
+          "productId": "product-30",
+          "quantity": 2,
+          "unitPriceHalalas": 9000
+        }
+      ],
+      "totalHalalas": 18000,
+      "status": "delivered",
+      "paymentStatus": "simulated_paid",
+      "scheduledAt": "2026-10-05T16:00:00+03:00",
+      "createdAt": "2026-10-05T08:00:00+03:00",
+      "synthetic": true
+    }
+  ]
+}

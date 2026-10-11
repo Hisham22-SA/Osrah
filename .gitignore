@@ -1,0 +1,21 @@
+data/
+GP1.docx
+gp1-reference.txt
+android/.gradle/
+android/**/build/
+android/local.properties
+.tools/
+
+# Local-only files
+.env
+.env.*
+!.env.example
+node_modules/
+.idea/
+*.jks
+*.keystore
+*.pem
+*.key
+*.apk
+output/
+tmp/
