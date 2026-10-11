@@ -1,4 +1,4 @@
-# Osrah GP2
+# Osrah
 
 Native Android prototype for Saudi productive families. Node.js 24 and SQLite provide the local API and persistent storage. This repository contains the current native Java Android prototype and local backend. It does not contain an earlier Flutter implementation.
 
